@@ -1,0 +1,59 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=15
+    os=Windows
+
+[requires]
+    SDL2/2.Y.Z
+    SDL2_image/2.Y.Z
+    SDL2_mixer/2.Y.Z
+    SDL2_ttf/2.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=15
+    os=Windows
+
+[full_requires]
+    SDL2/2.0.5@dotfloat/stable:d499b4311b4c28b029d445deec56205a7532c2f7
+    SDL2_image/2.0.1@lasote/stable:7802446d76cdfbf6340e0e7e006d03d8348ac18a
+    SDL2_mixer/2.0.1@a_teammate/testing:5c5d74d11d1b3627fdef1dd8450f63d9a29b2093
+    SDL2_ttf/2.0.14@hilborn/stable:c66136448bd7d52523ed6d2c4dfc9ca43467a6c3
+    libjpeg-turbo/1.5.1@lasote/stable:1123bb86bf228e77c55c10b6f6ec4085e25d8135
+    libpng/1.6.21@lasote/stable:606fdb601e335c2001bdf31d478826b644747077
+    nasm/2.12.02@lasote/stable:ca33edce272a279b24f87dc0d4cf5bbdcffbc187
+    zlib/1.2.8@lasote/stable:6cc50b139b9c3d27b3e9042d5f5372d327b3a9f7
+
+[full_options]
+    SDL2:directx=False
+    SDL2:fPIC=True
+    SDL2:shared=True
+    SDL2_image:fPIC=True
+    SDL2_image:fast_jpg_load=False
+    SDL2_image:shared=False
+    SDL2_mixer:fPIC=True
+    SDL2_mixer:shared=True
+    SDL2_ttf:fPIC=True
+    SDL2_ttf:shared=False
+    libjpeg-turbo:SSE=True
+    libjpeg-turbo:shared=False
+    libpng:shared=False
+    zlib:shared=False
+
+[scope]
+    dev=True
+
+[recipe_hash]
+
+
+[env]
+
